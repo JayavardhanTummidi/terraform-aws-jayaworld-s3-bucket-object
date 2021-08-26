@@ -60,6 +60,11 @@ variable "object_lock_retain_until_date" {
   default = ""
 }
 
+variable "source_file_name" {
+  description = "Path to a file that will be read and uploaded as raw bytes for the object content."
+  type = string
+}
+
 variable "tags" {
   description = "please provide tags for S3 bucket"
   type        = map(string)

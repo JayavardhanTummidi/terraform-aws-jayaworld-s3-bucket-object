@@ -5,7 +5,7 @@ provider "aws" {
 resource "aws_s3_bucket_object" "jayaworld-s3-bucket-object" {
   key = var.key
   bucket = var.bucket_name
-  source = null
+  source = var.source_file_name
   kms_key_id = var.aws_kms_key_arn
   acl = var.acl
   force_destroy = var.force_destroy
