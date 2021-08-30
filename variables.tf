@@ -63,6 +63,7 @@ variable "object_lock_retain_until_date" {
 variable "source_file_name" {
   description = "Path to a file that will be read and uploaded as raw bytes for the object content."
   type = string
+  default = ""
 }
 
 variable "tags" {
