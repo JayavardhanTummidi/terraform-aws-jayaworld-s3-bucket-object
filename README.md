@@ -7,6 +7,7 @@
   source  = "app.terraform.io/jaya-world/jayaworld-s3-bucket-object/aws"
   
   **insert required variables here**
+  
   key = "Name of the object once it is in the bucket"
 
   bucket = "Name of the bucket to put the file in. Alternatively, an S3 access point ARN can be specified"
