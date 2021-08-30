@@ -33,7 +33,7 @@ variable "key" {
 variable "server_side_encryption" {
   description = "Server-side encryption of the object in S3. Valid values are AES256 and aws:kms"
   type = string
-  default = null
+  default = ""
 }
 
 variable "storage_class" {
@@ -45,19 +45,19 @@ variable "storage_class" {
 variable "object_lock_legal_hold_status" {
   description = "Legal hold status that you want to apply to the specified object. Valid values are ON and OFF"
   type = string
-  default = null
+  default = ""
 }
 
 variable "object_lock_mode" {
   description = "Object lock retention mode that you want to apply to this object. Valid values are GOVERNANCE and COMPLIANCE"
   type = string
-  default = null
+  default = ""
 }
 
 variable "object_lock_retain_until_date" {
   description = "Date and time, in RFC3339 format, when this object's object lock will expire. example - 2021-12-31T23:59:60Z "
   type = string
-  default = null
+  default = ""
 }
 
 variable "source_file_name" {

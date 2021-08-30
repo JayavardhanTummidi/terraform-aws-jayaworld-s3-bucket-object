@@ -13,7 +13,7 @@
 
   source = "Path to a file that will be read and uploaded as raw bytes for the object content"
 
-  **look at input variables for more options**
+  **look at inputs section for more features and options**
 
 
   }
